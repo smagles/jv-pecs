@@ -14,6 +14,14 @@ public class Bulldozer extends Machine {
         this.model = model;
     }
 
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Bulldozer started to work");
