@@ -15,7 +15,6 @@ public class Bulldozer extends Machine {
         this.model = model;
     }
 
-
     @Override
     public void doWork() {
         System.out.println("Bulldozer started to work");
